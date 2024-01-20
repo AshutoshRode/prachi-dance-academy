@@ -1,0 +1,26 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css   
+        include ../static/styleContact.css   
+
+block content 
+  div.contanier
+    h1 Contact Us
+    form(action="/contact",method="post",class="myform")
+        input(type="text",class="myInput",name="name",placeholder="Enter Your Full Name ")
+        input(type="email",class="myInput",name="email",placeholder="Enter Your Gmail id ")
+        input(type="phone",class="myInput",name="phone",placeholder="Enter Your phone Number ")
+        input(type="number",class="myInput",name="age",placeholder="Enter Your Age ")
+        |Enter Birth Date
+        input(type="date",class="myInput",name="date",placeholder="Enter Birth Date ")
+        input(type="address",class="myInput",name="address",placeholder="Enter Your Detail Adresss ")
+        |When You Visit Our Acadamy
+        input(type="date",class="myInput",name="datejoin",placeholder="When You Visit Our Acadamy")
+
+        button(class="btn")
+          |Submit

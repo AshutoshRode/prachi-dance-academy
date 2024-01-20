@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+#logo img {
+    height: 45px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: rgb(42, 35, 35);
+    padding: 16px 13px;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    /* margin:20px 14px; */
+
+
+}
+
+#navbar li a {
+    font-family: 'Carter One';
+    color: white;
+    text-decoration: none;
+    padding: 12px 17px;
+    font-size: 23px;
+}
+
+#navbar li a:hover {
+    color: rgb(255, 9, 9);
+}
+
+#introSection {
+    /* opacity: 0.7; */
+    font-family: 'Frijole', cursive;
+    /* color: rgb(1, 1, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/dance-academy-500x500.jpg");
+    height: 450px;
+
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+
+}
+
+#introSection div.small {
+
+    font-size: 2rem;
+}
+
+
+
+#missionSection {
+    height: 300px;
+    background-color: rgb(215, 214, 214);
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(205, 202, 202);
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Carter One';
+    font-size: 30px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 25px;
+    height: 209px;
+
+}
+
+.card h3 {
+    text-align: center;
+    font-family: 'Carter One';
+    color: rgb(167, 70, 1);
+    margin: 0 15px;
+    margin-top: 12px;
+
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img img {
+    height: 131px;
+    padding: 3px 34px;
+    margin: 5px 9px;
+}
+
+.card-content {
+    padding: 0 10px;
+
+}
+
+.card-content p {
+    font-size: 19px;
+
+}
+
+
+#sponsorSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Carter One';
+    font-size: 30px;
+
+
+}
+
+#sponsors {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+
+
+}
+
+.spimg {
+    height: 91%;
+    margin: 0.8%;
+    margin-top: 4%;
+}
+
+#footer {
+    height: 60px;
+    background-color: rgb(42, 35, 35);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Carter One';
+
+
+
+
+}

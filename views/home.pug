@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css   
+
+block content 
+    
+
+    section#introSection 
+        div.big Welcome to Prachi's Dance Academy
+        div.small Every Buddy Can Dance  
+    
+    section#missionSection 
+        h2 Our mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/pngtree-dance-class-dancing-girl-silhouette-image_1322612.jpg")
+                div.card-content
+                    p This is the best dance Academy of the universe
+
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/pngtree-dance-dancing-girl-illustration-silhouette-png-image_4259135.jpg")
+                div.card-content
+                    p This is the best dance Academy of the universe
+        div.card 
+            h3 Expert Teaching 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/pngtree-dance-dancing-girl-illustration-silhouette-png-image_4419544.jpg")
+                div.card-content
+                    p This is the best dance Academy of the universe
+    section#sponsorSection
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/sponsor/microsoft.png",alt="Sponsors logo not found" class="spimg")
+            img(src="/static/sponsor/bmw.png",alt="Sponsors logo not found" class="spimg")
+            img(src="/static/sponsor/amazon.png",alt="Sponsors logo not found" class="spimg")
+            
+            img(src="/static/sponsor/apple.png",alt="Sponsors logo not found" class="spimg")
+            
+
+ 
+    script 
+       include ../static/index.js      
